@@ -26,9 +26,9 @@
         "This dataset has around 4.4M observations with 7M images from 58K worldwide species.",
         "We have restricted our training to the 10K most popular species.\n",
 
-        "<img class='fit', src='https://raw.githubusercontent.com/ai4oshub/plants-classification/master/images/plants.png'/>\n",
+        "<img class='fit', src='https://raw.githubusercontent.com/ai4os-hub/plants-classification/main/images/plants.png'/>\n",
 
-        "This service is based in the [Image Classification with Tensorflow](./deep-oc-image-classification-tensorflow.html) model.\n",
+        "This service is based on the [Image Classification with Tensorflow](https://github.com/ai4os-hub/ai4os-image-classification-tf) model.\n",
 
         "**References**\n",
         "[1]: Yann LeCun, Yoshua Bengio, and Geofrey Hinton. [Deep learning](https://www.cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf). Nature, 521(7553):436-444, May 2015.\n",
@@ -49,7 +49,7 @@
     "sources": {
 		"dockerfile_repo": "https://github.com/ai4os-hub/plants-classification",
 		"docker_registry_repo": "ai4oshub/plants-classification",
-		"code": "https://github.com/deephdc/image-classification-tf"
+		"code": "https://github.com/ai4os-hub/ai4os-image-classification-tf/"
 	},
     "continuous_integration": {
         "build_status_badge": "https://jenkins.services.ai4os.eu/buildStatus/icon?job=AI4OS-hub/plants-classification/main",

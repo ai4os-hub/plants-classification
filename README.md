@@ -22,7 +22,7 @@ $ docker run -ti -p 5000:5000 -p 6006:6006 -p 8888:8888 ai4oshub/plants-classifi
 ```
 
 This command will pull the Docker container from the Docker Hub
-[`deephdc`](https://hub.docker.com/u/deephdc/) organization.
+[`ai4oshub`](https://hub.docker.com/u/ai4oshub/) organization.
 
 ### Building the container
 
@@ -31,7 +31,7 @@ to modify the `Dockerfile` for instance) follow the following instructions:
 
 Building the container:
 
-1. Get the `DEEP-OC-plants-classification-tf` repository (this repo):
+1. Get the `plants-classification-tf` repository (this repo):
 
     ```bash
     $ git clone https://github.com/ai4os-hub/plants-classification

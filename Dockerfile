@@ -1,7 +1,7 @@
 # As this is a derived service from the image classification model
 # so we can resuse the original image classification image.
 
-# Options: cpu, gpu, cpu-test, gpu-test
+# Options: cpu, gpu
 ARG tag=cpu
 
 # Base image, e.g. tensorflow/tensorflow:1.12.0-py3
@@ -22,7 +22,7 @@ ENV MODEL_TAR inaturalist_plants.tar.xz
 
 RUN rm -rf ai4os-image-classification-tf/models/*
 
-RUN curl --insecure -o ./image-classification-tf/models/${MODEL_TAR} \
+RUN curl --insecure -o ./ai4os-image-classification-tf/models/${MODEL_TAR} \
     ${SWIFT_CONTAINER}${MODEL_TAR}
 
 RUN cd ai4os-image-classification-tf/models && \

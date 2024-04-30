@@ -26,7 +26,7 @@
         "This dataset has around 4.4M observations with 7M images from 58K worldwide species.",
         "We have restricted our training to the 10K most popular species.\n",
 
-        "<img class='fit', src='https://raw.githubusercontent.com/deephdc/DEEP-OC-plants-classification-tf/master/images/plants.png'/>\n",
+        "<img class='fit', src='https://raw.githubusercontent.com/ai4oshub/plants-classification/master/images/plants.png'/>\n",
 
         "This service is based in the [Image Classification with Tensorflow](./deep-oc-image-classification-tensorflow.html) model.\n",
 
@@ -47,13 +47,13 @@
     "cite_url": "http://digital.csic.es/handle/10261/194545",
     "date_creation": "2019-01-01",
     "sources": {
-		"dockerfile_repo": "https://github.com/deephdc/DEEP-OC-plants-classification-tf",
-		"docker_registry_repo": "deephdc/deep-oc-plants-classification-tf",
+		"dockerfile_repo": "https://github.com/ai4os-hub/plants-classification",
+		"docker_registry_repo": "ai4oshub/plants-classification",
 		"code": "https://github.com/deephdc/image-classification-tf"
 	},
     "continuous_integration": {
-        "build_status_badge": "https://jenkins.indigo-datacloud.eu/buildStatus/icon?job=Pipeline-as-code/DEEP-OC-org/DEEP-OC-plants-classification-tf/master",
-        "build_status_url": "https://jenkins.indigo-datacloud.eu/job/Pipeline-as-code/job/DEEP-OC-org/job/DEEP-OC-plants-classification-tf/job/master"
+        "build_status_badge": "https://jenkins.services.ai4os.eu/buildStatus/icon?job=AI4OS-hub/plants-classification/main",
+        "build_status_url": "https://jenkins.services.ai4os.eu/job/AI4OS-hub/job/plants-classification/job/main/"
     },
     "tosca": [
         {

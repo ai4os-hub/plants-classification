@@ -4,7 +4,7 @@
 
 # DEEP as a Service container for plants classification
 
-[![Build Status](https://jenkins.indigo-datacloud.eu/buildStatus/icon?job=Pipeline-as-code/DEEP-OC-org/DEEP-OC-plants-classification-tf/master)](https://jenkins.indigo-datacloud.eu/job/Pipeline-as-code/job/DEEP-OC-org/job/DEEP-OC-plants-classification-tf/job/master)
+[![Build Status](https://jenkins.services.ai4os.eu/buildStatus/icon?job=AI4OS-hub/plants-classification/main)](https://jenkins.services.ai4os.eu/job/AI4OS-hub/job/plants-classification/job/main/)
 
 This is a container that will run the DEEP as a Service API component. From the DEEPaas API the user can choose the model
  to train or to predict, together with the basic input parameters.
@@ -18,7 +18,7 @@ To run the Docker container directly from Docker Hub and start using the API
 simply run the following command:
 
 ```bash
-$ docker run -ti -p 5000:5000 -p 6006:6006 -p 8888:8888 deephdc/deep-oc-plants-classification-tf
+$ docker run -ti -p 5000:5000 -p 6006:6006 -p 8888:8888 ai4oshub/plants-classification
 ```
 
 This command will pull the Docker container from the Docker Hub
@@ -34,26 +34,26 @@ Building the container:
 1. Get the `DEEP-OC-plants-classification-tf` repository (this repo):
 
     ```bash
-    $ git clone https://github.com/deephdc/DEEP-OC-plants-classification-tf
+    $ git clone https://github.com/ai4os-hub/plants-classification
     ```
 
 2. Build the container:
 
     ```bash
     $ cd DEEP-OC-plants-classification-tf
-    $ docker build -t deephdc/deep-oc-plants-classification-tf .
+    $ docker build -t ai4oshub/plants-classification .
     ```
 
 3. Run the container:
 
     ```bash
-    $ docker run -ti -p 5000:5000  -p 6006:6006 -p 8888:8888 deephdc/deep-oc-plants-classification-tf
+    $ docker run -ti -p 5000:5000  -p 6006:6006 -p 8888:8888 ai4oshub/plants-classification
     ```
    
    You can also run Jupyter Lab inside the container:
    
    ```bash
-   $ docker run -ti -p 5000:5000 -p 6006:6006 -p 8888:8888 deephdc/deep-oc-plants-classification-tf /bin/bash
+   $ docker run -ti -p 5000:5000 -p 6006:6006 -p 8888:8888 ai4oshub/plants-classification /bin/bash
    $root@47a6604ef008:/srv# jupyter lab --allow-root
    ```
    

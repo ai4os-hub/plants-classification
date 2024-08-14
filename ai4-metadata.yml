@@ -8,7 +8,7 @@ description: |-
   The PREDICT method expects an RGB image as input (or the url of an RGB image) and will return a JSON with the top 5 predictions.
   The original training dataset was the great collection of images which are available in [PlantNet](https://identify.plantnet.org/) under a Creative-Common AttributionShareAlike 2.0 license. It consists of around 250K images belonging to more than 6K plant species of Western Europe. These species are distributed in 1500 genera and 200 families.
   A new iteration of the application has been trained using plant images from [iNaturalist](https://www.inaturalist.org/). This dataset has around 4.4M observations with 7M images from 58K worldwide species. We have restricted our training to the 10K most popular species.
-  <img class=''fit'', src=''https://raw.githubusercontent.com/ai4os-hub/plants-classification/main/images/plants.png''/>
+  <img class='fit', src='https://raw.githubusercontent.com/ai4os-hub/plants-classification/main/images/plants.png'/>
   This service is based on the [Image Classification with Tensorflow](https://github.com/ai4os-hub/ai4os-image-classification-tf) model.
   
   **References**
@@ -31,6 +31,7 @@ tags:
   - deep learning
 tasks:
   - Computer Vision
+  - Classification
 categories:
   - AI4 trainable
   - AI4 pre trained

@@ -29,6 +29,7 @@ links:
   citation: http://digital.csic.es/handle/10261/194545
 tags:
   - deep learning
+  - image classification
 tasks:
   - Computer Vision
   - Classification

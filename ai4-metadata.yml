@@ -22,7 +22,7 @@ dates:
   created: '2019-01-01'
   updated: '2024-08-12'
 links:
-  source_code: https://github.com/ai4os-hub/ai4os-image-classification-tf/
+  source_code: https://github.com/ai4os-hub/plants-classification
   docker_image: ai4oshub/plants-classification
   dataset: https://www.gbif.org/es/dataset/50c9509d-22c7-4a22-a47d-8c48425ef4a7
   training_data: null

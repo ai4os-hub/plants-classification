@@ -2,13 +2,23 @@ metadata_version: 2.0.0
 title: Plants species classifier
 summary: Classify plant images among 10K species from the iNaturalist dataset.
 description: |-
-  The deep learning revolution has brought significant advances in a number of fields [1], primarily linked to image and speech recognition. The standardization of image classification tasks like the [ImageNet Large Scale Visual Recognition Challenge](http://www.image-net.org/challenges/LSVRC/) [2] has resulted in a reliable way to compare top performing architectures.
+  The deep learning revolution has brought significant advances in a number of fields [1], primarily linked to image and speech recognition. 
+  The standardization of image classification tasks like the [ImageNet Large Scale Visual Recognition Challenge](http://www.image-net.org/challenges/LSVRC/) [2] has resulted in a reliable way to compare top performing architectures.
+  
   The use of deep learning for plant classification is not novel [3, 4] but has mainly focused in leaves and has been restricted to a limited amount of species, therefore making it of limited use for large-scale biodiversity monitoring purposes. 
-  This Docker container contains a trained Convolutional Neural network optimized for plant identification using images. The architecture used is an Xception [5] network using Keras on top of Tensorflow. A detailed article about this network and the results obtained with it can be found in [6].
+  
+  This Docker container contains a trained Convolutional Neural network optimized for plant identification using images.
+  The architecture used is an Xception [5] network using Keras on top of Tensorflow. 
+  A detailed article about this network and the results obtained with it can be found in [6].
+  
   The PREDICT method expects an RGB image as input (or the url of an RGB image) and will return a JSON with the top 5 predictions.
-  The original training dataset was the great collection of images which are available in [PlantNet](https://identify.plantnet.org/) under a Creative-Common AttributionShareAlike 2.0 license. It consists of around 250K images belonging to more than 6K plant species of Western Europe. These species are distributed in 1500 genera and 200 families.
+  The original training dataset was the great collection of images which are available in [PlantNet](https://identify.plantnet.org/) under a Creative-Common AttributionShareAlike 2.0 license.
+  It consists of around 250K images belonging to more than 6K plant species of Western Europe. These species are distributed in 1500 genera and 200 families.
+  
   A new iteration of the application has been trained using plant images from [iNaturalist](https://www.inaturalist.org/). This dataset has around 4.4M observations with 7M images from 58K worldwide species. We have restricted our training to the 10K most popular species.
+  
   <img class='fit', src='https://raw.githubusercontent.com/ai4os-hub/plants-classification/main/images/plants.png'/>
+  
   This service is based on the [Image Classification with Tensorflow](https://github.com/ai4os-hub/ai4os-image-classification-tf) model.
   
   **References**

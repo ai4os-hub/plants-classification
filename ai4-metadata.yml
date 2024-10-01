@@ -37,6 +37,7 @@ links:
   dataset: https://www.gbif.org/es/dataset/50c9509d-22c7-4a22-a47d-8c48425ef4a7
   training_data: null
   citation: http://digital.csic.es/handle/10261/194545
+  base_model: https://github.com/ai4os-hub/ai4os-image-classification-tf
 tags:
   - deep learning
   - image classification
